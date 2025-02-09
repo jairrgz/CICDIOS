@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3C4A8E5C7C0CA1F90F5CE031 /* Pods_RETIREMENT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1FCE13C60494964A9B5831 /* Pods_RETIREMENT.framework */; };
+		44EA3397341DDB0111C00D5B /* Pods_RETIREMENTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445319CC3FAC20755FC254FD /* Pods_RETIREMENTTests.framework */; };
+		9D1A6F87AB4C34D635B00F1E /* Pods_RETIREMENT_RETIREMENTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347E544CEBCE0472E70EDA8F /* Pods_RETIREMENT_RETIREMENTUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		69096D0F2D595A8700D80ED6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,24 +30,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1FCE13C60494964A9B5831 /* Pods_RETIREMENT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347E544CEBCE0472E70EDA8F /* Pods_RETIREMENT_RETIREMENTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENT_RETIREMENTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		445319CC3FAC20755FC254FD /* Pods_RETIREMENTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69096CFE2D595A8600D80ED6 /* RETIREMENT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RETIREMENT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69096D0E2D595A8700D80ED6 /* RETIREMENTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETIREMENTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69096D182D595A8700D80ED6 /* RETIREMENTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETIREMENTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C723C61CF128F357D7B17F4 /* Pods-RETIREMENTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENTTests.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENTTests/Pods-RETIREMENTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		971BFB972B891D9C53ED7714 /* Pods-RETIREMENT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT.release.xcconfig"; sourceTree = "<group>"; };
+		9BAE85C3A62BB4CA3212B7FA /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D960F16E1809B11CB171D773 /* Pods-RETIREMENT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT.debug.xcconfig"; sourceTree = "<group>"; };
+		F7DCE82D4314CBB64EC0507F /* Pods-RETIREMENTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENTTests.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENTTests/Pods-RETIREMENTTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA9C01AE09B3D308EDD0B639 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		69096D002D595A8600D80ED6 /* RETIREMENT */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = RETIREMENT;
 			sourceTree = "<group>";
 		};
 		69096D112D595A8700D80ED6 /* RETIREMENTTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = RETIREMENTTests;
 			sourceTree = "<group>";
 		};
 		69096D1B2D595A8700D80ED6 /* RETIREMENTUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = RETIREMENTUITests;
 			sourceTree = "<group>";
 		};
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4A8E5C7C0CA1F90F5CE031 /* Pods_RETIREMENT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EA3397341DDB0111C00D5B /* Pods_RETIREMENTTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1A6F87AB4C34D635B00F1E /* Pods_RETIREMENT_RETIREMENTUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D69281FC5503210A0208277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A1FCE13C60494964A9B5831 /* Pods_RETIREMENT.framework */,
+				347E544CEBCE0472E70EDA8F /* Pods_RETIREMENT_RETIREMENTUITests.framework */,
+				445319CC3FAC20755FC254FD /* Pods_RETIREMENTTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		69096CF52D595A8600D80ED6 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +113,8 @@
 				69096D112D595A8700D80ED6 /* RETIREMENTTests */,
 				69096D1B2D595A8700D80ED6 /* RETIREMENTUITests */,
 				69096CFF2D595A8600D80ED6 /* Products */,
+				9578F3F807DA8D5793452342 /* Pods */,
+				0D69281FC5503210A0208277 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +128,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9578F3F807DA8D5793452342 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D960F16E1809B11CB171D773 /* Pods-RETIREMENT.debug.xcconfig */,
+				971BFB972B891D9C53ED7714 /* Pods-RETIREMENT.release.xcconfig */,
+				9BAE85C3A62BB4CA3212B7FA /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */,
+				FA9C01AE09B3D308EDD0B639 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */,
+				7C723C61CF128F357D7B17F4 /* Pods-RETIREMENTTests.debug.xcconfig */,
+				F7DCE82D4314CBB64EC0507F /* Pods-RETIREMENTTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69096D222D595A8700D80ED6 /* Build configuration list for PBXNativeTarget "RETIREMENT" */;
 			buildPhases = (
+				98668EF7EE704BD28E464821 /* [CP] Check Pods Manifest.lock */,
 				69096CFA2D595A8600D80ED6 /* Sources */,
 				69096CFB2D595A8600D80ED6 /* Frameworks */,
 				69096CFC2D595A8600D80ED6 /* Resources */,
@@ -111,8 +162,6 @@
 				69096D002D595A8600D80ED6 /* RETIREMENT */,
 			);
 			name = RETIREMENT;
-			packageProductDependencies = (
-			);
 			productName = RETIREMENT;
 			productReference = 69096CFE2D595A8600D80ED6 /* RETIREMENT.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69096D252D595A8700D80ED6 /* Build configuration list for PBXNativeTarget "RETIREMENTTests" */;
 			buildPhases = (
+				1351F9D5E9FB3F95FF0E450C /* [CP] Check Pods Manifest.lock */,
 				69096D0A2D595A8700D80ED6 /* Sources */,
 				69096D0B2D595A8700D80ED6 /* Frameworks */,
 				69096D0C2D595A8700D80ED6 /* Resources */,
@@ -134,8 +184,6 @@
 				69096D112D595A8700D80ED6 /* RETIREMENTTests */,
 			);
 			name = RETIREMENTTests;
-			packageProductDependencies = (
-			);
 			productName = RETIREMENTTests;
 			productReference = 69096D0E2D595A8700D80ED6 /* RETIREMENTTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69096D282D595A8700D80ED6 /* Build configuration list for PBXNativeTarget "RETIREMENTUITests" */;
 			buildPhases = (
+				7B360E3B957F9F41E83F29C5 /* [CP] Check Pods Manifest.lock */,
 				69096D142D595A8700D80ED6 /* Sources */,
 				69096D152D595A8700D80ED6 /* Frameworks */,
 				69096D162D595A8700D80ED6 /* Resources */,
@@ -157,8 +206,6 @@
 				69096D1B2D595A8700D80ED6 /* RETIREMENTUITests */,
 			);
 			name = RETIREMENTUITests;
-			packageProductDependencies = (
-			);
 			productName = RETIREMENTUITests;
 			productReference = 69096D182D595A8700D80ED6 /* RETIREMENTUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +277,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1351F9D5E9FB3F95FF0E450C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RETIREMENTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B360E3B957F9F41E83F29C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RETIREMENT-RETIREMENTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98668EF7EE704BD28E464821 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RETIREMENT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69096CFA2D595A8600D80ED6 /* Sources */ = {
@@ -390,6 +506,7 @@
 		};
 		69096D232D595A8700D80ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D960F16E1809B11CB171D773 /* Pods-RETIREMENT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +536,7 @@
 		};
 		69096D242D595A8700D80ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971BFB972B891D9C53ED7714 /* Pods-RETIREMENT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +566,7 @@
 		};
 		69096D262D595A8700D80ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C723C61CF128F357D7B17F4 /* Pods-RETIREMENTTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +586,7 @@
 		};
 		69096D272D595A8700D80ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DCE82D4314CBB64EC0507F /* Pods-RETIREMENTTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +606,7 @@
 		};
 		69096D292D595A8700D80ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BAE85C3A62BB4CA3212B7FA /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +624,7 @@
 		};
 		69096D2A2D595A8700D80ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9C01AE09B3D308EDD0B639 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
