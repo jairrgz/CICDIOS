@@ -153,6 +153,7 @@
 				69096CFA2D595A8600D80ED6 /* Sources */,
 				69096CFB2D595A8600D80ED6 /* Frameworks */,
 				69096CFC2D595A8600D80ED6 /* Resources */,
+				A8941317B0FC118A1F3A225F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +197,7 @@
 				69096D142D595A8700D80ED6 /* Sources */,
 				69096D152D595A8700D80ED6 /* Frameworks */,
 				69096D162D595A8700D80ED6 /* Resources */,
+				FA78CBB4F5B8ECD48777A15C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -343,6 +345,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8941317B0FC118A1F3A225F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA78CBB4F5B8ECD48777A15C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
