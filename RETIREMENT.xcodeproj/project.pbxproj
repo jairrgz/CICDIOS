@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C4A8E5C7C0CA1F90F5CE031 /* Pods_RETIREMENT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1FCE13C60494964A9B5831 /* Pods_RETIREMENT.framework */; };
-		44EA3397341DDB0111C00D5B /* Pods_RETIREMENTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445319CC3FAC20755FC254FD /* Pods_RETIREMENTTests.framework */; };
-		9D1A6F87AB4C34D635B00F1E /* Pods_RETIREMENT_RETIREMENTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347E544CEBCE0472E70EDA8F /* Pods_RETIREMENT_RETIREMENTUITests.framework */; };
+		3AC3A5D12C8AB060AAA4ED7F /* Pods_RETIREMENT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4793B2C1C8BF5306FE0AF6 /* Pods_RETIREMENT.framework */; };
+		D1FC99BA7474744AC54247E9 /* Pods_RETIREMENT_RETIREMENTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C59D070B49939C94FA31C9C /* Pods_RETIREMENT_RETIREMENTUITests.framework */; };
+		E664F70A758D6196D36B3712 /* Pods_RETIREMENTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263F807BEC127B88070CED1C /* Pods_RETIREMENTTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,39 +30,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A1FCE13C60494964A9B5831 /* Pods_RETIREMENT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		347E544CEBCE0472E70EDA8F /* Pods_RETIREMENT_RETIREMENTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENT_RETIREMENTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		445319CC3FAC20755FC254FD /* Pods_RETIREMENTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4793B2C1C8BF5306FE0AF6 /* Pods_RETIREMENT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		263F807BEC127B88070CED1C /* Pods_RETIREMENTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A868BE24B711B22DCD40E6A /* Pods-RETIREMENTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENTTests.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENTTests/Pods-RETIREMENTTests.release.xcconfig"; sourceTree = "<group>"; };
+		434287EC3608BB1FABCCA797 /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		69096CFE2D595A8600D80ED6 /* RETIREMENT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RETIREMENT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69096D0E2D595A8700D80ED6 /* RETIREMENTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETIREMENTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69096D182D595A8700D80ED6 /* RETIREMENTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETIREMENTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C723C61CF128F357D7B17F4 /* Pods-RETIREMENTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENTTests.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENTTests/Pods-RETIREMENTTests.debug.xcconfig"; sourceTree = "<group>"; };
-		971BFB972B891D9C53ED7714 /* Pods-RETIREMENT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT.release.xcconfig"; sourceTree = "<group>"; };
-		9BAE85C3A62BB4CA3212B7FA /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D960F16E1809B11CB171D773 /* Pods-RETIREMENT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT.debug.xcconfig"; sourceTree = "<group>"; };
-		F7DCE82D4314CBB64EC0507F /* Pods-RETIREMENTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENTTests.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENTTests/Pods-RETIREMENTTests.release.xcconfig"; sourceTree = "<group>"; };
-		FA9C01AE09B3D308EDD0B639 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C59D070B49939C94FA31C9C /* Pods_RETIREMENT_RETIREMENTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RETIREMENT_RETIREMENTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEBE1DE6F35A78D205A3571 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENT-RETIREMENTUITests/Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA16AFFD2B24D256C347EDF8 /* Pods-RETIREMENT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT.debug.xcconfig"; sourceTree = "<group>"; };
+		DA42FD36BEAB6720AFC1C796 /* Pods-RETIREMENTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENTTests.debug.xcconfig"; path = "Target Support Files/Pods-RETIREMENTTests/Pods-RETIREMENTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC1BFC58A4A32CEAB98EC20 /* Pods-RETIREMENT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		69096D002D595A8600D80ED6 /* RETIREMENT */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = RETIREMENT;
 			sourceTree = "<group>";
 		};
 		69096D112D595A8700D80ED6 /* RETIREMENTTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = RETIREMENTTests;
 			sourceTree = "<group>";
 		};
 		69096D1B2D595A8700D80ED6 /* RETIREMENTUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = RETIREMENTUITests;
 			sourceTree = "<group>";
 		};
@@ -73,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4A8E5C7C0CA1F90F5CE031 /* Pods_RETIREMENT.framework in Frameworks */,
+				3AC3A5D12C8AB060AAA4ED7F /* Pods_RETIREMENT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44EA3397341DDB0111C00D5B /* Pods_RETIREMENTTests.framework in Frameworks */,
+				E664F70A758D6196D36B3712 /* Pods_RETIREMENTTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,23 +83,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1A6F87AB4C34D635B00F1E /* Pods_RETIREMENT_RETIREMENTUITests.framework in Frameworks */,
+				D1FC99BA7474744AC54247E9 /* Pods_RETIREMENT_RETIREMENTUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D69281FC5503210A0208277 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1A1FCE13C60494964A9B5831 /* Pods_RETIREMENT.framework */,
-				347E544CEBCE0472E70EDA8F /* Pods_RETIREMENT_RETIREMENTUITests.framework */,
-				445319CC3FAC20755FC254FD /* Pods_RETIREMENTTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		69096CF52D595A8600D80ED6 = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +98,7 @@
 				69096D1B2D595A8700D80ED6 /* RETIREMENTUITests */,
 				69096CFF2D595A8600D80ED6 /* Products */,
 				9578F3F807DA8D5793452342 /* Pods */,
-				0D69281FC5503210A0208277 /* Frameworks */,
+				98985D0E56023FAF9EF97725 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,15 +115,24 @@
 		9578F3F807DA8D5793452342 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D960F16E1809B11CB171D773 /* Pods-RETIREMENT.debug.xcconfig */,
-				971BFB972B891D9C53ED7714 /* Pods-RETIREMENT.release.xcconfig */,
-				9BAE85C3A62BB4CA3212B7FA /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */,
-				FA9C01AE09B3D308EDD0B639 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */,
-				7C723C61CF128F357D7B17F4 /* Pods-RETIREMENTTests.debug.xcconfig */,
-				F7DCE82D4314CBB64EC0507F /* Pods-RETIREMENTTests.release.xcconfig */,
+				CA16AFFD2B24D256C347EDF8 /* Pods-RETIREMENT.debug.xcconfig */,
+				DAC1BFC58A4A32CEAB98EC20 /* Pods-RETIREMENT.release.xcconfig */,
+				434287EC3608BB1FABCCA797 /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */,
+				ACEBE1DE6F35A78D205A3571 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */,
+				DA42FD36BEAB6720AFC1C796 /* Pods-RETIREMENTTests.debug.xcconfig */,
+				2A868BE24B711B22DCD40E6A /* Pods-RETIREMENTTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		98985D0E56023FAF9EF97725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D4793B2C1C8BF5306FE0AF6 /* Pods_RETIREMENT.framework */,
+				7C59D070B49939C94FA31C9C /* Pods_RETIREMENT_RETIREMENTUITests.framework */,
+				263F807BEC127B88070CED1C /* Pods_RETIREMENTTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,11 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69096D222D595A8700D80ED6 /* Build configuration list for PBXNativeTarget "RETIREMENT" */;
 			buildPhases = (
-				98668EF7EE704BD28E464821 /* [CP] Check Pods Manifest.lock */,
+				C54272763A8D27CB419B83FC /* [CP] Check Pods Manifest.lock */,
 				69096CFA2D595A8600D80ED6 /* Sources */,
 				69096CFB2D595A8600D80ED6 /* Frameworks */,
 				69096CFC2D595A8600D80ED6 /* Resources */,
-				A8941317B0FC118A1F3A225F /* [CP] Copy Pods Resources */,
+				011F45AC99B6093AB94202AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,7 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69096D252D595A8700D80ED6 /* Build configuration list for PBXNativeTarget "RETIREMENTTests" */;
 			buildPhases = (
-				1351F9D5E9FB3F95FF0E450C /* [CP] Check Pods Manifest.lock */,
+				2BF3A03E8A44A70F5BBAAD5E /* [CP] Check Pods Manifest.lock */,
 				69096D0A2D595A8700D80ED6 /* Sources */,
 				69096D0B2D595A8700D80ED6 /* Frameworks */,
 				69096D0C2D595A8700D80ED6 /* Resources */,
@@ -193,11 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69096D282D595A8700D80ED6 /* Build configuration list for PBXNativeTarget "RETIREMENTUITests" */;
 			buildPhases = (
-				7B360E3B957F9F41E83F29C5 /* [CP] Check Pods Manifest.lock */,
+				406DCC826CDE7A3C3536C375 /* [CP] Check Pods Manifest.lock */,
 				69096D142D595A8700D80ED6 /* Sources */,
 				69096D152D595A8700D80ED6 /* Frameworks */,
 				69096D162D595A8700D80ED6 /* Resources */,
-				FA78CBB4F5B8ECD48777A15C /* [CP] Copy Pods Resources */,
+				F4E7C8E42884855A58307FF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,7 +274,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1351F9D5E9FB3F95FF0E450C /* [CP] Check Pods Manifest.lock */ = {
+		011F45AC99B6093AB94202AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF3A03E8A44A70F5BBAAD5E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,7 +313,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7B360E3B957F9F41E83F29C5 /* [CP] Check Pods Manifest.lock */ = {
+		406DCC826CDE7A3C3536C375 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,7 +335,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		98668EF7EE704BD28E464821 /* [CP] Check Pods Manifest.lock */ = {
+		C54272763A8D27CB419B83FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,24 +357,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A8941317B0FC118A1F3A225F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA78CBB4F5B8ECD48777A15C /* [CP] Copy Pods Resources */ = {
+		F4E7C8E42884855A58307FF8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -542,21 +535,23 @@
 		};
 		69096D232D595A8700D80ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D960F16E1809B11CB171D773 /* Pods-RETIREMENT.debug.xcconfig */;
+			baseConfigurationReference = CA16AFFD2B24D256C347EDF8 /* Pods-RETIREMENT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RETIREMENT/Preview Content\"";
-				DEVELOPMENT_TEAM = 9G888JR76L;
+				DEVELOPMENT_TEAM = SHLF9JQ9DB;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,21 +567,23 @@
 		};
 		69096D242D595A8700D80ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971BFB972B891D9C53ED7714 /* Pods-RETIREMENT.release.xcconfig */;
+			baseConfigurationReference = DAC1BFC58A4A32CEAB98EC20 /* Pods-RETIREMENT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RETIREMENT/Preview Content\"";
-				DEVELOPMENT_TEAM = 9G888JR76L;
+				DEVELOPMENT_TEAM = SHLF9JQ9DB;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,7 +599,7 @@
 		};
 		69096D262D595A8700D80ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C723C61CF128F357D7B17F4 /* Pods-RETIREMENTTests.debug.xcconfig */;
+			baseConfigurationReference = DA42FD36BEAB6720AFC1C796 /* Pods-RETIREMENTTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -622,7 +619,7 @@
 		};
 		69096D272D595A8700D80ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7DCE82D4314CBB64EC0507F /* Pods-RETIREMENTTests.release.xcconfig */;
+			baseConfigurationReference = 2A868BE24B711B22DCD40E6A /* Pods-RETIREMENTTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -642,7 +639,7 @@
 		};
 		69096D292D595A8700D80ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BAE85C3A62BB4CA3212B7FA /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */;
+			baseConfigurationReference = 434287EC3608BB1FABCCA797 /* Pods-RETIREMENT-RETIREMENTUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -660,7 +657,7 @@
 		};
 		69096D2A2D595A8700D80ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA9C01AE09B3D308EDD0B639 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */;
+			baseConfigurationReference = ACEBE1DE6F35A78D205A3571 /* Pods-RETIREMENT-RETIREMENTUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
