@@ -22,7 +22,7 @@ struct RETIREMENTApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RetirementCalculatorView()
         }
     }
 }
