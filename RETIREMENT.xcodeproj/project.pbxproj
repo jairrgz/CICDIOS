@@ -44,9 +44,22 @@
 		DAC1BFC58A4A32CEAB98EC20 /* Pods-RETIREMENT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETIREMENT.release.xcconfig"; path = "Target Support Files/Pods-RETIREMENT/Pods-RETIREMENT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6950083D2D987BA3006DACF4 /* Exceptions for "RETIREMENT" folder in "RETIREMENT" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 69096CFD2D595A8600D80ED6 /* RETIREMENT */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		69096D002D595A8600D80ED6 /* RETIREMENT */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6950083D2D987BA3006DACF4 /* Exceptions for "RETIREMENT" folder in "RETIREMENT" target */,
+			);
 			path = RETIREMENT;
 			sourceTree = "<group>";
 		};
@@ -546,6 +559,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RETIREMENT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -578,6 +592,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RETIREMENT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

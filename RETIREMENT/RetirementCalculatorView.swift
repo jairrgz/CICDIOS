@@ -7,6 +7,7 @@
 
 import SwiftUI
 import AppCenterCrashes
+import AppCenterAnalytics
 
 struct RetirementCalculatorView: View {
     @State private var monthlyInvestments: String = ""
