@@ -14,7 +14,7 @@ jobs: # Los trabajos
     runs-on: macos-latest # Aquí puede ser ubuntu-latest si no fuera iOS o podríamos usar windows-latest
 
     steps:
-    - name: Checkout code #OK
+    - name: Checkout repository #OK
       uses: actions/checkout@v2 #OK
 
     - name: Set up Xcode
