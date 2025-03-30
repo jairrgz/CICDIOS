@@ -18,7 +18,7 @@ struct RETIREMENTApp: App {
     init() {
        
         AppCenter.logLevel = .verbose
-        AppCenter.start(withAppSecret: "910aa33c-9dec-4e13-91e7-711b0db06443", services:[
+        AppCenter.start(withAppSecret: "d9ecd2cf-eb7e-472f-864c-6709d0e3cf81", services:[
             Analytics.self,
             Crashes.self
         ])
