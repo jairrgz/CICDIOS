@@ -8,6 +8,7 @@
 import SwiftUI
 import AppCenterCrashes
 import AppCenterAnalytics
+import AppCenterAnalytics
 
 struct RetirementCalculatorView: View {
     @State private var monthlyInvestments: String = ""
@@ -72,6 +73,9 @@ struct RetirementCalculatorView: View {
             }
             .padding()
             .navigationTitle("Retiro")
+        }
+        .onAppear {
+            Analytics.trackEvent("My custom event")
         }
     }
 }
