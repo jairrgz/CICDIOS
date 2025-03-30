@@ -30,7 +30,7 @@ struct RETIREMENTApp: App {
     
     var body: some Scene {
         WindowGroup {
-            RetirementCalculatorView()
+            RetirementCalculatorView(monthlyInvestments: "", age: "", retirementAge: "", interestRate: "", savings: "", result: "", expectedReturn: "")
         }
     }
 }
