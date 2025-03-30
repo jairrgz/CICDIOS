@@ -37,38 +37,43 @@ struct RetirementCalculatorView: View {
     // MARK: - BODY
     var body: some View {
         NavigationView {
-            VStack(spacing: 16) {
-                Text("Calculadora de Retiro")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
+            ZStack {
+                Color.red
+                
+                VStack(spacing: 16) {
+                    Text("Calculadora de Retiro")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
 
-                GroupSubView(monthlyInvestments: $monthlyInvestments,
-                             age: $age,
-                             retirementAge: $retirementAge,
-                             interestRate: $interestRate,
-                             expectedReturn: $expectedReturn,
-                             savings: $savings)
+                    GroupSubView(monthlyInvestments: $monthlyInvestments,
+                                 age: $age,
+                                 retirementAge: $retirementAge,
+                                 interestRate: $interestRate,
+                                 expectedReturn: $expectedReturn,
+                                 savings: $savings)
 
-                Button(action: {
-                    Crashes.generateTestCrash()
-                }) {
-                    Text("Calcular")
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                }
-                .padding()
-
-                Text(result)
-                    .font(.headline)
+                    Button(action: {
+                        Crashes.generateTestCrash()
+                    }) {
+                        Text("Calcular")
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
                     .padding()
 
-                Spacer()
+                    Text(result)
+                        .font(.headline)
+                        .padding()
+
+                    Spacer()
+                }
+                .padding()
+                .navigationTitle("Retiro")
             }
-            .padding()
-            .navigationTitle("Retiro")
+            
         }
         .onAppear {
             Analytics.trackEvent("My custom event")
