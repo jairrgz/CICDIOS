@@ -8,15 +8,33 @@
 import SwiftUI
 import AppCenterCrashes
 import AppCenterAnalytics
+import AppCenterAnalytics
 
 struct RetirementCalculatorView: View {
+    
+    // MARK: - PROPERTIES
     @State private var monthlyInvestments: String = ""
     @State private var age: String = ""
     @State private var retirementAge: String = ""
     @State private var interestRate: String = ""
     @State private var savings: String = ""
     @State private var result: String = "Ingrese los valores y presione calcular"
+    @State private var expectedReturn: String = ""
     
+    // MARK: - DESIGNATED INITIALIZER
+    init(monthlyInvestments: String, age: String,
+         retirementAge: String, interestRate: String,
+         savings: String, result: String, expectedReturn: String) {
+        self.monthlyInvestments = monthlyInvestments
+        self.age = age
+        self.retirementAge = retirementAge
+        self.interestRate = interestRate
+        self.savings = savings
+        self.result = result
+        self.expectedReturn = expectedReturn
+    }
+    
+    // MARK: - BODY
     var body: some View {
         NavigationView {
             VStack(spacing: 16) {
@@ -24,33 +42,12 @@ struct RetirementCalculatorView: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
 
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("Inversión mensual:")
-                    TextField("Ej. 500", text: $monthlyInvestments)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .keyboardType(.decimalPad)
-                    
-                    Text("Edad actual:")
-                    TextField("Ej. 30", text: $age)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .keyboardType(.numberPad)
-                    
-                    Text("Edad de retiro:")
-                    TextField("Ej. 65", text: $retirementAge)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .keyboardType(.numberPad)
-                    
-                    Text("Tasa de interés anual (%):")
-                    TextField("Ej. 5.0", text: $interestRate)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .keyboardType(.decimalPad)
-                    
-                    Text("Ahorros actuales:")
-                    TextField("Ej. 10000", text: $savings)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .keyboardType(.decimalPad)
-                }
-                .padding()
+                GroupSubView(monthlyInvestments: $monthlyInvestments,
+                             age: $age,
+                             retirementAge: $retirementAge,
+                             interestRate: $interestRate,
+                             expectedReturn: $expectedReturn,
+                             savings: $savings)
 
                 Button(action: {
                     Crashes.generateTestCrash()
@@ -73,9 +70,9 @@ struct RetirementCalculatorView: View {
             .padding()
             .navigationTitle("Retiro")
         }
+        .onAppear {
+            Analytics.trackEvent("My custom event")
+        }
     }
 }
 
-#Preview {
-    RetirementCalculatorView()
-}

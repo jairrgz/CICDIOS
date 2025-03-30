@@ -1,0 +1,50 @@
+name: CI/CD for RETIREMENT ## Nombre de Acción
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+    types:
+      - opened
+      - synchronize
+
+jobs: # Los trabajos
+  build:
+    runs-on: macos-latest # Aquí puede ser ubuntu-latest si no fuera iOS o podríamos usar windows-latest
+
+    steps:
+    - name: Checkout repository #OK
+      uses: actions/checkout@v2 #OK
+
+    - name: Set up Xcode
+      uses: actions/setup-xcode@v2
+      with:
+        xcode-version: latest-stable
+
+    - name: Select Xcode version
+      run: sudo xcode-select --switch /Applications/Xcode.app
+
+    - name: Install dependencies
+      run: |
+        # Aquí puedes agregar comandos para instalar dependencias si es necesario
+        # por ejemplo, podrías usar `pod install` si usas CocoaPods
+
+    - name: Build
+      run: |
+        xcodebuild clean build -workspace RETIREMENT.xcworkspace -scheme RETIREMENT -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
+    - name: Test
+      run: |
+        xcodebuild test -workspace RETIREMENT.xcworkspace -scheme RETIREMENT -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
+    - name: Archive build artifacts
+      run: |
+        mkdir -p build-artifacts
+        cp -R build/Release-iphonesimulator/RETIREMENT.app build-artifacts/
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: RETIREMENT-app
+        path: build-artifacts/RETIREMENT.ipa
