@@ -15,10 +15,10 @@ jobs: # Los trabajos
 
     steps:
     - name: Checkout repository #OK
-      uses: actions/checkout@v2 #OK
+      uses: actions/checkout@v3 #OK
 
     - name: Set up Xcode
-      uses: actions/setup-xcode@v2
+      uses: actions/setup-xcode@v3
       with:
         xcode-version: latest-stable
 
@@ -44,7 +44,7 @@ jobs: # Los trabajos
         cp -R build/Release-iphonesimulator/RETIREMENT.app build-artifacts/
 
     - name: Upload build artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: RETIREMENT-app
         path: build-artifacts/RETIREMENT.ipa
